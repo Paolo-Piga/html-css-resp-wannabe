@@ -140,10 +140,10 @@ img {
 /** Versione Mobile**/
 
 @media screen and (max-width:480px){
-    .row{
+    .lessons .row, .steps .row, .why-us .row{
         flex-wrap: wrap;
     }
-    .col{
-        padding: 0;
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
     }
 }
