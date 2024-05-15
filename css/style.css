@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: #b8c1ec;
@@ -127,3 +129,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/** Versione Tablet**/
+@media screen and (max-width:768px){
+    .container{
+        width: 768px;
+    }
+}
+
+/** Versione Mobile**/
+
+@media screen and (max-width:480px){
+    .container{
+        width: 480px;
+    }
+}
