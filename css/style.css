@@ -143,4 +143,7 @@ img {
     .row{
         flex-wrap: wrap;
     }
+    .col{
+        padding: 0;
+    }
 }
