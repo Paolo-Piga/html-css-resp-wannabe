@@ -133,14 +133,14 @@ img {
 /** Versione Tablet**/
 @media screen and (max-width:768px){
     .container{
-        width: 768px;
+        width: 100%;
     }
 }
 
 /** Versione Mobile**/
 
 @media screen and (max-width:480px){
-    .container{
-        width: 480px;
+    .row{
+        flex-wrap: wrap;
     }
 }
